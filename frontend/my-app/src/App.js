@@ -7,10 +7,9 @@ import TopMenuComponent from "./components/TopMenuComponent";
 function App() {
     return (
         <div className="App">
-        <div>
-        <TopMenuComponent>
-        </TopMenuComponent>
-        </div>
+            <div>
+                <TopMenuComponent></TopMenuComponent>
+            </div>
         </div>
 );
 }
