@@ -9,10 +9,7 @@ class TopMenuComponent extends Component {
     render() {
         return (
             <Router>
-                <Navbar
-                    bg="dark"
-                    variant="dark"
-                    className="mb-4" >
+                <Navbar bg="dark" variant="dark" className="mb-4" >
                     <Navbar.Brand href="/">
                         Home
                     </Navbar.Brand>
